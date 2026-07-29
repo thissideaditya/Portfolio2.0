@@ -1,0 +1,35 @@
+{
+  "name": "aditya-chaurasia-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node --no-network-family-autoselection node_modules/.bin/next dev",
+    "start": "node --no-network-family-autoselection node_modules/.bin/next start",
+    "build": "next build",
+    "lint": "next lint",
+    "db:setup": "node scripts/db-setup.mjs",
+    "hash-password": "node scripts/hash-password.mjs"
+  },
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.424.0",
+    "@neondatabase/serverless": "^1.1.0",
+    "jose": "^6.2.4",
+    "bcryptjs": "^3.0.3",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.35"
+  }
+}

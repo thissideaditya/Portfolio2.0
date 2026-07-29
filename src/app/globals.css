@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #ef3e10;
+  color: #ffffff;
+}
+
+/* Visible keyboard focus everywhere, without a focus ring on mouse clicks. */
+:focus-visible {
+  outline: 2px solid #ef3e10;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Thin, subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #272727;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
+/*
+ * Portrait treatment: drops the photo to greyscale and blends its luminance
+ * into the orange plate behind it, giving the duotone look from the reference.
+ */
+.portrait-duotone {
+  filter: grayscale(1) contrast(1.2) brightness(0.95);
+  mix-blend-mode: luminosity;
+}
+
+/* Oversized hero headline: the second word is cut out of the background. */
+.headline-ghost {
+  color: #2b2b2b;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
