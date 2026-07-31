@@ -12,7 +12,7 @@ export const experience: ExperienceItem[] = [
     startDate: "Jun 2022",
     endDate: "Present",
     href: "#",
-    logo: "https://picsum.photos/seed/company-three-logo/200/200",
+    logo: "/acLogo.png",
   },
   {
     company: "Wipro Limited",
@@ -21,8 +21,8 @@ export const experience: ExperienceItem[] = [
       "Designing and maintaining automation frameworks, improving release confidence, and collaborating with backend teams on quality strategy.",
     startDate: "Jan 2025",
     endDate: "Present",
-    href: "#",
-    logo: "https://picsum.photos/seed/wipro-logo/200/200",
+    href: "https://www.wipro.com/",
+    logo: "/wiproLogo.jpg",
   },
   {
     company: "GSTIndia.biz",
@@ -31,17 +31,17 @@ export const experience: ExperienceItem[] = [
       "Built insurance and GST compliance domains, gaining early exposure to production-scale systems.",
     startDate: "Jan 2024",
     endDate: "Jan 2025",
-    href: "#",
-    logo: "https://picsum.photos/seed/company-two-logo/200/200",
+    href: "https://gstindia.biz/",
+    logo: "/gstIndiaLogo.png",
   },
   {
     company: "Aspora",
     role: "Software Engineering Intern",
     description:
-      "Worked across insurance and GST compliance domains, gaining early exposure to production-scale systems.",
+      "Designed and developed AlphaDesk from scratch, an in-house dashboard used to manage and track data for 400,000+ users, including payments and KYC details.",
     startDate: "Oct 2022",
     endDate: "Dec 2022",
-    href: "#",
-    logo: "https://picsum.photos/seed/company-three-logo/200/200",
+    href: "https://www.aspora.com/",
+    logo: "/asporaLogo.png",
   },
 ];
