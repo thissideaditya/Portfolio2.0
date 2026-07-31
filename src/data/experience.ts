@@ -6,7 +6,7 @@ import { ExperienceItem } from "@/lib/types";
 export const experience: ExperienceItem[] = [
   {
     company: "Freelance Developer",
-    role: "Web Development & Mobile App Development",
+    role: "Web & Mobile App Development",
     description:
       "Worked with clients to build web and mobile applications, providing end-to-end solutions from design to deployment.",
     startDate: "Jun 2022",
